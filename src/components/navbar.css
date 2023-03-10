@@ -1,0 +1,23 @@
+.navbar {
+  background-color: #16181D;
+  height: 12vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+ 
+  
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+  color: aqua;
+}
+
+.links a {
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 25px;
+  color: white;
+}
