@@ -8,7 +8,7 @@ export const Navbar = () => {
   return <div className="navbar">
     <div className="links">
       <Link to="/"> Shop </Link>
-      <Link to="/cart"> <FontAwesomeIcon icon={faShoppingCart} size={32} /> </Link>
+      <Link to="/cart"> <FontAwesomeIcon icon={faShoppingCart} size="xs" /> </Link>
     </div>
   </div>;
 };

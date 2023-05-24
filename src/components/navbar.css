@@ -4,8 +4,6 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
- 
-  
 }
 
 .links {
@@ -20,4 +18,23 @@
   margin-left: 30px;
   font-size: 25px;
   color: white;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar {
+    justify-content: center;
+    height: auto;
+    padding: 10px;
+  }
+
+  .links {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 0;
+  }
+
+  .links a {
+    margin: 10px;
+  }
 }
